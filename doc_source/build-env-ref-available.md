@@ -15,7 +15,7 @@ AWS CodeBuild manages the following Docker images that are available in the Code
 
  The latest version of each images is cached\. If you specify a more specific version, then CodeBuild provisions that version instead of the cached version\. This can result in longer build times\. For example, to benefit from caching, specify `aws/codebuild/amazonlinux2-x86_64-standard:2.0` instead of a more granular version, such as `aws/codebuild/amazonlinux2-x86_64-standard:2.0-1.0.0`\. 
 
- The standard image of the Ubuntu 18\.04 and Amazon Linux 2 platforms contain the following runtimes\. If you use the Amazon Linux 2 standard image 1\.0 or the Ubuntu standard image 2\.0, you must specify your runtime in the `runtime-versions` section of your buildspec file\. For more information, see [Specify Runtime Versions in the Buildspec File](build-spec-ref.md#runtime-versions-buildspec-file)\. 
+ The standard image of the Ubuntu 18\.04 and Amazon Linux 2 platforms contain the following runtimes\. If you use the Amazon Linux 2 standard image 1\.0, Amazon Linux 2 standard image 2\.0, Ubuntu standard image 2\.0, or the Ubuntu standard image 3\.0, you must specify your runtime in the `runtime-versions` section of your buildspec file\. For more information, see [Specify Runtime Versions in the Buildspec File](build-spec-ref.md#runtime-versions-buildspec-file)\. 
 
 
 | Runtime name | Version/versions | How to specify in the buildspec file | 
